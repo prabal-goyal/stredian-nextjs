@@ -92,8 +92,8 @@ export default function ImageGallery() {
   }, []);
 
   return (
-    <div className="w-full max-w-7xl mx-auto px-4 py-8">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 h-[80vh]">
+    <div className="w-full mx-auto">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 h-[100vh]">
         {/* Column 1 */}
         <div ref={column1Ref} className="space-y-8 overflow-y-auto scrollbar-thin" style={{ scrollbarWidth: 'none', msOverflowStyle: 'none' }}>
           {column1.map((imageKey) => (
